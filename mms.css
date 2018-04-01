@@ -1,0 +1,297 @@
+@charset "gb2312";
+body {
+	background-color: #406df1;
+	background-image: url(Image/bg.png);
+	margin:0px auto;
+	cursor:default;
+}
+
+a:link {
+	color: #8fe69c;
+}
+a:visited {
+	color: #8fe69c;
+}
+a:hover {
+	color: #000000;
+}
+a:active {
+	color: #8fe69c;
+}
+#username {
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+    position:relative;
+    overflow:visible;
+}
+.MainInfo #MainPage p {
+	text-align: center;
+}
+
+.mmsTitle {
+    width:767px;
+	height: 165px;
+	font-weight: bold;
+	font-size: 66px;
+	text-align: left;
+}
+.mmsTitle {
+	color: #FFF;
+	font-weight: normal;
+	
+}
+.MainInfo {
+	color: #FFF;
+    height: 476px;
+	font-weight: bold;
+}
+.MainTitle2 {
+	font-weight: normal;
+	font-size: 22px;
+}
+.regtext {
+	font-weight: bold;
+}
+.exittag {
+	color: #FFF;
+	text-align: center;
+	
+	font-weight: bold;
+}
+.zPageTitle {
+	font-size: 36px;
+	color: #FFF;
+}
+.Panel {
+	font-size: 16px;
+	color: #FFF;
+	font-weight: bold;
+}
+.upforms2 {
+	font-size: 14px;
+}
+
+
+.backtologin {
+	text-align: center;
+}
+
+
+.MMSLogin {
+	color: #91ACFF;
+}
+.LoginInfo {
+	font-weight: bold;
+	color: #000977;
+	text-align: center;
+}
+.fTextBox {
+	font-size: 14px;
+	/* color: #666; */
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #82A2FF;
+	border-right-color: #82A2FF;
+	border-bottom-color: #82A2FF;
+	border-left-color: #82A2FF;
+	background-color: #BFCAFB;
+}
+.leftInfo {
+	text-align: center;
+}
+.lChoose {
+	border: 1px double #33F;
+}
+
+.cover {
+	text-align:center;
+}
+.skinbox {
+	width: 197px;
+	height: 147px;
+	margin:auto;
+	background-color: #fff;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	text-align:center;
+	margin-top:15px;
+	margin-left:22px;
+	border:solid 3px #FFF;
+	position:relative;
+	overflow:visible;
+	float:left;
+}
+.skinbox:hover{ 
+	border-color:#b8d4e8; 
+	background-color:#f0f0f0;
+    -moz-box-shadow: 0px 0px 20px #000;  
+     -webkit-box-shadow: 0px 0px 20px #000;  
+	 box-shadow: 0px 0px 20px #000;  
+}
+
+.skinbox p{
+	margin:auto;
+	padding-top:10px;
+	
+}
+
+.selected {
+	background-color:#A0A0A0;
+	border-color:#b8d4e8; 
+    -moz-box-shadow: 0px 0px 20px #000;  
+     -webkit-box-shadow: 0px 0px 20px #000;  
+	 box-shadow: 0px 0px 20px #000;  
+}
+.selected:hover {
+	border-color:#b8d4e8; 
+	background-color:#D0D0D0; 
+}
+#skinbox .check {
+    visibility: hidden;
+	position: absolute;
+	right: -14px;
+	top: -18px;
+}
+
+#skinViewerFloat {
+	position:relative;
+}
+
+#username img{
+position:absolute;
+top:-5px;
+right:-7px;
+z-index:10;
+}
+#bottom {
+	margin: auto auto auto; 
+	width: 100%; 
+	text-align: center; 
+	clear: both; 
+	background-color: rgba(11, 66, 213, 0.5);
+}
+#bottom p {
+	margin: 0px; 
+	padding: 0px; 
+	line-height: 2em;
+}
+#bottom *{ position:relative;}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+}
+ 
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+
+
+
+
+
+
+
+
+
+.mainbody {  
+	 top:40px;
+     -moz-box-shadow: 0px 0px 500px #7094FE;  
+     -webkit-box-shadow: 0px 0px 500px #7094FE;  
+	 box-shadow: 0px 0px 500px #7094FE;  
+	 width: 980px;
+}  
+.mainbody #cube1,#cube4 {
+	background-color: #3264FF;
+	background-color: rgba(20, 80, 255, 0.6);
+}
+.mainbody #cube2,#cube3 {
+	background-color:#6699FF;
+	background-color: rgba(50, 100, 255, 0.2);
+	text-align:center;
+}
+  
+#cube2{
+	width: 211px;
+}
+
+.mmsFooter {
+	text-align: center;
+	height:74px;
+	background-color:#3F39F9; 
+	background-color: rgba(51, 51, 255, 0.6);
+	color: #FFF;
+}
+
+#logo {
+	position:relative;
+	margin-left:20px;
+	border:0px;
+}
+
+
+/* 这是按钮的颜色*/
+#button {
+	text-align:center;
+	width: 200px;
+}
+#button td {
+	background-color: #0D49FF;
+	color: #FFF;
+}
+#button th {
+	background-color: #0D49FF;
+	color: #FFF;
+}
+
+
+
+
+   .colorwell {
+     border: 2px solid #fff;
+     width: 6em;
+     text-align: center;
+     cursor: pointer;
+   }
+   body .colorwell-selected {
+     border: 2px solid #000;
+     font-weight: bold;
+   }
+   
+.signbg {
+	width:324px;
+	height:100px;
+	margin: auto;
+}
+.chosen {
+	border:10px;
+	border-color:#f4f48a; 
+    -moz-box-shadow: 0px 0px 20px #000;  
+     -webkit-box-shadow: 0px 0px 20px #000;  
+	 box-shadow: 0px 0px 20px #000;  
+}
+.textarea {
+	width: 300px; 
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+    position:relative;
+    overflow:visible;
+}
+.textarea #showmsg{
+position:absolute;
+bottom:0px;
+right:0px;
+z-index:10;
+}
